@@ -7,6 +7,49 @@
     <link rel="stylesheet" href="assets/styles/global.css">
 </head>
 <body>
+        <nav> <!-- Barra de navegacion -->
+        <img src="" alt="PunibusLOGO"><!-- Logo de punibus-->
+        <button id="abrirModal">Abrir ventana modal</button><!-- aca deberian de ir las tres rallitas -->
+        <dialog id="miModal"><!-- esto es una ventana modal -->
+                <a href=""> <p> Aca deberia de estar las opciones </p> </a>
+                <a href=""> <p> Aca deberia de estar las opciones </p> </a>
+                <a href=""> <p> Aca deberia de estar las opciones </p> </a>
+                <form method="dialog">
+                    <button>Cerrar</button><!-- Este boton cierra la ventana -->
+                </form>
+            </dialog>
+    </nav>
+
+    <div>
+        <h1>
+            Punibus
+            <!-- Muchachos, aca deberia de haber de fondo una imagen de fondo (Background-image)-->
+        </h1>
+    </div>
+
+    <div>
+        <h2>
+            ¿Que es punibus?
+        </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit inventore possimus aliquam ex dolorem tempore suscipit numquam cum cumque ipsam, explicabo maxime ducimus vitae voluptates qui minus amet totam provident.</p>
+        <img src="" alt="Imagen de complemento"> <!-- colocar una imagen banda de trolos -->
+    </div>
+
+
+
+
+
+
+
+
+<script>
+  const modal = document.getElementById("miModal");
+  const botonAbrir = document.getElementById("abrirModal");
+
+  botonAbrir.addEventListener("click", () => {
+    modal.showModal(); // Abre el modal como ventana modal
+  });
+</script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

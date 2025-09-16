@@ -25,7 +25,8 @@ footer{
 .button1{
     background-color: #577c8e;
     border: none;
-    height: 100%;
+    font-size: 1.5rem;
+    
 }
 .miModal {
     background-color: #577c8e;

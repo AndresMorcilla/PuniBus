@@ -1,1 +1,3 @@
-// codigo general de la pagina (funciones)
+function goto(urlfile) {
+    console.log("fua amigo fuiste a " + urlfile)
+}

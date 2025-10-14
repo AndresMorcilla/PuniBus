@@ -5,6 +5,11 @@ body {
     background-color: #f4efeb;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0  0 25px 25px;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
 header{
@@ -35,7 +40,10 @@ h1{
     font-weight: 500;
 }
 .buscador{
-    background-color: #2f4157;
+    height: 6rem;
+    width: 80%;
+    margin:3rem , 100%, 3rem, 100% ;
+    display: flex;
     
 }
 .buscador_form{

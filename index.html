@@ -1,99 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>puni bus</title>
     <link rel="stylesheet" href="assets/styles/global.css">
 </head>
-
 <body>
     <header>
-        <nav> <!-- Barra de navegacion -->
-            <img src="" alt="PunibusLOGO"><!-- Logo de punibus-->
-            <button class="button1" id="abrirModal">Abrir ventana modal</button><!-- aca deberian de ir las tres rallitas -->
-            <dialog id="miModal" class="miModal"><!-- esto es una ventana modal -->
-                    <a href=""> <p> Aca deberia de estar las opciones </p> </a>
-                    <a href=""> <p> Aca deberia de estar las opciones </p> </a>
-                    <a href=""> <p> Aca deberia de estar las opciones </p> </a>
-                    <form method="dialog">
-                    <button>Cerrar</button><!-- Este boton cierra la ventana -->
-                    </form>
-            </dialog>
-        </nav>
+        <img src="" alt="" >
+        <h1>Punibus</h1>
+        <button><img src="" alt=""></button>
     </header>
 
-    <section id="principal">
-        <div class="divPrincipal"><!-- div principal con el titulo y una imagen de decoracion -->
-            <h1>
-                Punibus
-                <!-- Muchachos, aca deberia de haber de fondo una imagen de fondo (Background-image)-->
-            </h1>
-        </div>
-    </section>
-
-
-    <section id="explicacion">
-        <div class="div2"><!-- div secundario con la informacion sobre que es punibus-->
-            <h2>
-                ¿Que es punibus?
-            </h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit inventore possimus aliquam ex dolorem tempore suscipit numquam cum cumque ipsam, explicabo maxime ducimus vitae voluptates qui minus amet totam provident.</p>
-            <img src="" alt="Imagen de complemento"> <!-- colocar una imagen-->
-        </div>
-    </section>
-
-    <section id="explicacion_2" >
-        <div class="div3"><!-- div secundario con la informacion de como usar punibus -->
-            <h2>
-                ¿Para que sirve?
-            </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sapiente doloribus repudiandae optio facere culpa vero excepturi corrupti iste harum, aut nobis ducimus cupiditate officiis ex quam illum autem cumque.</p>
-            <img src="" alt="Imagen de complemento"> <!-- colocar una imagen-->
-        </div>
-    </section>
-
-    <section id="carrusel">
-        <div class="div4">
-            <div> <!-- div carrusel de imagens del colectivo-->
+    <div class="buscador" >
+        <div class="buscador_form">
+                <input list="lugares" name="buscador_1" id="buscador_1" placeholder="origen">
+                <datalist id="lugares" >
+                    <option value="la falda">
+                    <option value="la falda2">
+                    <option value="capilla">
+                    <option value="la cumbre">
+                    <option value="los cocos">
+                    <option value="huerta">
+                    <option value="giardino">
+                </datalist>
             
-            </div>
-        <div>
-    </section>
 
-    <section id="footer" >
-        <footer>
-            <a href=""> <!-- esto te deberia de llevar a una red de contacto (este al gmail) -->
-                <button > 
-                    colocar imagen de Gmail  
-                </button> <!-- este boton te lleva al gmail de la empresa -->
-            </a> <!-- deberian de colocar una imagen de Gmail-->
+                <input list="lugares" name="buscador_2" id="buscador_2" placeholder="destino">
+                    <datalist id="lugares" >
+                        <option value="la falda">
+                        <option value="la falda2">
+                        <option value="capilla">
+                        <option value="la cumbre">
+                        <option value="los cocos">
+                        <option value="huerta">
+                        <option value="giardino">
+                    </datalist>
+        <a href="resultados.html">
+        <button>
+            buscar
+        </button>
+        </a>
+    </div>
 
-            <a href=""> <!-- esto te deberia de llevar a una red de contacto (este al Whatsapp) -->
-                <button> <!-- este boton te lleva al gmail de la empresa -->
-                    colocar imagen de Gmail  
-                </button> 
-            </a> <!-- deberian de colocar una imagen de Whatsapp-->
-        </div>
+    
+    <div><!-- Espacio para el carrousel -->
+    </div>
 
-
-            &copy; PuniBUS
-        </footer>
-    </section>
-
-
-
-
-
-
-<script>
-  const modal = document.getElementById("miModal");
-  const botonAbrir = document.getElementById("abrirModal");
-
-  botonAbrir.addEventListener("click", () => {
-    modal.showModal(); // Abre el modal como ventana modal
-  });
-</script>
-    <script src="assets/js/script.js"></script>
+    <footer>
+        <h4>Punibus</h4>
+        <p> Un sitio web que ayuda a difundir los horarios del colectivo</p>
+        <h6>&copy; 2025 Cuarto año proa. Todos los derechos reservados.</h6>
+    </footer>
 </body>
 </html>

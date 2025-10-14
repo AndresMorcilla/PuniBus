@@ -11,36 +11,39 @@ header{
     background-color: #577c8e;
     font-size: 2rem;
     margin: 0;
-
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 0  0 25px 25px;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    margin-bottom: 5rem;
 }
+
+
 footer{
     background-color: #2f4157;
 }
-.divPrincipal {
-    background-color: #c7d9e5;
-    text-align: center;
-
-
+img{
+    background-color: tomato;
+    width: 75px; 
+    height: 75px;
 }
-.button1{
-    background-color: #577c8e;
-    border: none;
-    font-size: 1.5rem;
+h1{
+    font-size: larger;
+    font-style: italic;
+    font-weight: 500;
+}
+.buscador{
+    background-color: #2f4157;
     
 }
-.miModal {
-    background-color: #577c8e;
-    font-size: large;
+.buscador_form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 0  0 25px 25px;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    margin-bottom: 5rem;
 }
-.div2{
-    background-color: #c7d9e5;
-}
-
-.div3 {
-    background-color: #c7d9e5;
-}
-.div4{
-    background-color: #c7d9e5;
-}
-
-

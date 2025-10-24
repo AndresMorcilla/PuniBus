@@ -1,12 +1,16 @@
 /*Contenido del global css*/
 /*¿Que es el global?*/
 /*El global es el css que le da su estilo caracteristico y principal a el sitio, el que debe estar en todas las paginas*/
+
+
+/* ESTILOS FUNDAMENTALES*/
 body {
     background-color: #f4efeb;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    min-height: 100vh; 
     border-radius: 0  0 25px 25px;
     flex-wrap:wrap;
     justify-content:space-between;
@@ -22,13 +26,18 @@ header{
     border-radius: 0  0 25px 25px;
     flex-wrap:nowrap;
     justify-content:space-between;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
-
 
 footer{
+    margin-top: 5rem ;
+    padding: 5%;
     background-color: #2f4157;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
 }
+/*ESTILOS GENERALES*/
 img{
     background-color: tomato;
     width: 75px; 
@@ -39,19 +48,34 @@ h1{
     font-style: italic;
     font-weight: 500;
 }
+/*ESTILOS DE CLASES*/
 .buscador{
     height: 6rem;
-    width: 80%;
-    margin:3rem , 100%, 3rem, 100% ;
+    width: 90%;
+    margin: 3rem auto;
     display: flex;
-    
 }
 .buscador_form{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100%;    
     border-radius: 0  0 25px 25px;
     flex-wrap:nowrap;
     justify-content:space-around;
     margin-bottom: 5rem;
+}
+.itemfooter {
+    color: #EEEEEE;
+    font-size: 15px;
+    margin: 0 1rem 0 1rem;
+    justify-content: space-around;
+}
+input,button{
+    width: 10rem;
+    height: 2rem;
+    border: #111111 solid 0.9px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight:bold;
+    box-shadow: #111111 0 0 15px;
 }

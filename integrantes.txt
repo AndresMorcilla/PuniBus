@@ -13,3 +13,10 @@ HTML:
     Maxi
     Ariel
     Felipe
+
+
+Tareas:(Felipe)
+-Crear un json con datos simulados 
+-Buscar la clase de diseño de interfaz para usar json
+-hacer una funcion que te permita crear la lista lugares
+-hacer una funcion que te permita filtrar los colectivos y te lleve al mapa(pagina hecha)

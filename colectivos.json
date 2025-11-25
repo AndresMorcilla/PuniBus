@@ -1,0 +1,20 @@
+{
+  "colectivo": {
+    "precio": 350.0,
+    "marca": "Mercedes-Benz",
+    "linea": "45",
+    "ruta": "Recorrido principal",
+    "numero": "45A",
+    "desde_donde": "Barracas",
+    "a_donde": "Ciudad Universitaria",
+    "duracion": "1h 10min",
+    "horarios": [
+      "05:30",
+      "06:00",
+      "06:30",
+      "07:00",
+      "07:30",
+      "08:00"
+    ]
+  }
+}

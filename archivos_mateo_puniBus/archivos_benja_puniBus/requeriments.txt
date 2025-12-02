@@ -1,0 +1,25 @@
+REQUISITOS FUNCIONALES
+
+-Botones
+- - - Menus
+- - - Mapas -> Recorridos del colectivo urbano
+- - - Horarios
+-Tablas
+- - - Empresas  \
+- - - Precios    -> Capacidad de filtrar la informacion
+- - - Recorridos/
+-Info
+- - - Feriados / Paros de colectivos
+- - - Recorridos
+- - - Linea y ramal: A, B y C
+- - - Horarios de funcionamiento; Desvíos temporales
+- - - Paradas:
+- - - - - Ubicación exacta
+- - - - - Distancia entre Paradas
+- - - - - Conexiones
+
+REQUISITOS NO FUNCIONALES
+
+-Diseños visuales
+-Base de Datos
+-Filtros

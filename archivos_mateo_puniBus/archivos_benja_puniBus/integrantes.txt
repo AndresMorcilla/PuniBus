@@ -1,0 +1,15 @@
+Scrum Master:
+    Benja Martin
+
+JS:
+    Andrés Morillo
+    Sergio Martin
+
+CSS:
+    Tadeo
+    Mateo
+
+HTML:
+    Maxi
+    Ariel
+    Felipe

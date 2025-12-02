@@ -1,0 +1,1 @@
+// firebase o lo que sea que usemos dependiendo de la magnitud, podria ser SQL u php

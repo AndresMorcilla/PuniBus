@@ -79,3 +79,39 @@ input,button{
     font-weight:bold;
     box-shadow: #111111 0 0 15px;
 }
+
+.opt {
+    border-radius:20px;
+    background-color: #577c8e;
+    padding: 25px;
+}
+
+.resultado_form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    border-radius: 0  0 25px 25px;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+    margin-bottom: 5rem;
+}
+
+.resultador {
+    background-color: #aabbcf;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+.opcionesresul {
+    background-color: #757f8a;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+.resultin {
+    border-radius:20px;
+    background-color: #577c8e;
+    padding: 25px;
+}

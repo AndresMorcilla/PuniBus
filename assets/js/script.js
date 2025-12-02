@@ -1,1 +1,0 @@
-// codigo general de la pagina (funciones)

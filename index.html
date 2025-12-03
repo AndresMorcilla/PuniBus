@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>puni bus</title>
     <link rel="stylesheet" href="assets/styles/global.css">
-    <link rel="stylesheet" href="archivos_mateo_puniBus/archivos_benja_puniBus/styleMateo.css">
-    <link rel="stylesheet" href="archivos_mateo_puniBus/archivos_benja_puniBus/slayer_mateo_css.css">
 </head>
 <body>
+    <header>
         <nav> <!-- Barra de navegacion -->
-        <img src="" alt="PunibusLOGO"><!-- Logo de punibus-->
-        <button id="abrirModal">Abrir ventana modal</button><!-- aca deberian de ir las tres rallitas -->
-        <dialog id="miModal"><!-- esto es una ventana modal -->
+        <img src="assets/img/ico/buscar.png" alt="PunibusLOGO"><!-- Logo de punibus-->
+<!--        <button id="abrirModal">Abrir ventana modal</button>
+        <dialog id="miModal">
                 <a href=""> <p> Aca deberia de estar las opciones </p> </a>
                 <a href=""> <p> Aca deberia de estar las opciones </p> </a>
                 <a href=""> <p> Aca deberia de estar las opciones </p> </a>6T
                 <form method="dialog">
-                    <button>Cerrar</button><!-- Este boton cierra la ventana -->
+                    <button>Cerrar</button>
                 </form>
-            </dialog>
+            </dialog> -->
     </nav>
 
-    <header>
-        <img src="" alt="" >
         <h1>Punibus</h1>
-        <button><img src="" alt=""></button>
+
+        <img src="assets/img/ico/menu.png" alt="" >
+        
     </header>
 <!--    <div class="slider-container">
         <h1 class="site-title">Punibus</h1>
@@ -74,15 +73,38 @@
         </div>
     </div>
     <br>
-    
-    <div><!-- Espacio para el carrousel -->
+
+    <div id="carousel-container">
+        <div id="carousel">
+            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/capillatermi.webp" alt="Imagen 1"></div>
+            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/CarcorUrbano1.jpeg" alt="Imagen 2"></div>
+            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/colectivo sarmiento.jpeg" alt="Imagen 3"></div>
+            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/interurbanos-terminal-carlos-paz.webp" alt="Imagen 4"></div>
+        </div>
+        
+            <!-- Botones -->
+        <button  class="button_carrousel" id="carousel-prev">&#10094;</button>
+        <button  class="button_carrousel" id="carousel-next">&#10095;</button>
+        
+            <!-- Indicadores -->
+        <div id="carousel-indicators">
+            <span class="indicator active" data-index="0"></span>
+            <span class="indicator" data-index="1"></span>
+            <span class="indicator" data-index="2"></span>
+            <span class="indicator" data-index="3"></span>
+        </div>
     </div>
+    
+        <script src="script.js"></script>
+
+    </div>
+
 
     <footer>
         <h4  class="itemfooter">Punibus</h4>
         <h4  class="itemfooter" >Un sitio web que ayuda a difundir los horarios del colectivo</h4>
         <h6  class="itemfooter">&copy; 2025 Cuarto año proa. Todos los derechos reservados.</h6>
     </footer>
-    <script src=""></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

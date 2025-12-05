@@ -2,23 +2,23 @@
 let imagenes = [
    {
         "url": "assets/img/ico/capillatermi.webp",
-        "nombre": "BMW Serie 1",
-        "descripcion": "El BMW Serie 1 es un compacto premium, reconocido por su dinámica de conducción, diseño deportivo y tecnología innovadora. Se ofrece en versiones de 3 y 5 puertas, con una amplia gama de motores de gasolina y diésel."
+        "nombre": "Terminal de capilla",
+        "descripcion": "Es la terminal de omnibus de capilla del monte, aqui llegan los colestivos inter urbanos, como por ejemplo el colectivo sarmiento y el lumasa. es la terminal mas al norte del departamento de punilla."
     },
     {
-        "url": "assets/img/ico/CarcorUrbano1.jpeg",
+        "url": "assets/img/ico/terminalCosquin.jpg",
         "nombre": "BMW X3", 
-        "descripcion": "El BMW X3 es un SUV compacto de lujo, producido por BMW desde 2003. Es conocido por su manejo deportivo, su interior lujoso y su diseño distintivo. Se ofrece en diversas variantes de motor, incluyendo gasolina y diésel, y en versiones con tracción trasera o total."
+        "descripcion": "Es la terminal de omnibus de cosquin, aqui llegan colectivos inter urbanos, como por ejemplo el colectivo sarmiento, lumasa, calera, urquiza. es la terminal mas al sur del departamento de punilla"
     },
     {
-        "url": "assets/img/ico/tamse.jpeg",
+        "url": "assets/img/ico/colectivoC.jpeg",
         "nombre": "BMW XM", 
-        "descripcion": "El BMW XM es un SUV de lujo híbrido enchufable. Se caracteriza por su potente motor V8 TwinPower Turbo de 4,4 litros, combinado con un motor eléctrico, para ofrecer una experiencia de conducción de alto rendimiento."
+        "descripcion": "Este es el colectivo C un colectivo urbano que viaja desde villa giardino hasta villa yacoana, pasando por lugars como : La Falda, Huerta Grande y Villa Giardino"
     },
     {
         "url": "assets/img/ico/terminalCarlosPaz.webp",
         "nombre": "BMW Z4", 
-        "descripcion": "El BMW Z4 es un roadster deportivo de dos plazas, conocido por su diseño elegante y su potente rendimiento. Se caracteriza por su tracción trasera, transmisión automática de ocho velocidades o manual de seis, y diferentes opciones de motor de gasolina."
+        "descripcion": "Es la terminal de omnibus de carlos paz, por aqui pasan la mayotia de las empresas de colectivos ya que desde aqui se realizan los viajes mas largos desde la capital de la provincia hasta viajes inter provinciales."
     }
 ]
 

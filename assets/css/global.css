@@ -12,16 +12,14 @@ header{
     background-color: #579f9e;
     margin: 0;
     border-radius: 1px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items:baseline;
     justify-content: space-between;
 }
 
-footer{
 
-}
 /*ESTILOS GENERALES*/
 img{
     width: 2.3rem; 
@@ -65,105 +63,116 @@ input,button{
     font-weight:bold;
     box-shadow: #111111 0 0 15px;
 }
-<<<<<<< HEAD
 /* Estilos del carrusel */
-#carousel-container {
-    position:relative;
-    width: 800px;
-    margin: auto;
+
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
-}
-
-#carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-#carousel .carousel-slide {
-    min-width: 100%;
-    height: 600px;
-    box-sizing: border-box;
-}
-
-#carousel img {
     width: 100%;
-    display: block;
+    height: 700px;
+    background-color: white;
 }
 
-/* Botones */
-#carousel-prev, #carousel-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
-    border: none;
-    color: white;
-    font-size: 2rem;
-    padding: 10px;
-    cursor: pointer;
-}
-
-#carousel-prev { left: 10px; }
-#carousel-next { right: 10px; }
-
-/* Indicadores */
-#carousel-indicators {
-    text-align: center;
-    margin-top: 10px;
-}
-
-#carousel-indicators .indicator {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-#carousel-indicators .active {
-    background-color: #333;
-}
-.imagen_del_carrousel{
-    height: 60%;
-    width: 80%;
-}
-=======
-
-.opt {
-    border-radius:20px;
-    background-color: #577c8e;
-    padding: 25px;
-}
-
-.resultado_form {
+.imagenes{
     display: flex;
-    flex-direction: row;
-    width: 100%;    
-    border-radius: 0  0 25px 25px;
-    flex-wrap:nowrap;
-    justify-content:space-around;
-    margin-bottom: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
 
-.resultador {
-    background-color: #aabbcf;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 20px;
+.img{
+    box-shadow: 0px 10px 70px 10px rgba(0, 0, 0, 0.85);
+    height: 500px;
+    width: 1000px;
+    border-radius: 15px ;
+    margin: -5px;
+    object-fit: cover;
+    filter: saturate(175%);
 }
 
-.opcionesresul {
-    background-color: #757f8a;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 20px;
+.texto{
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    transform: translateY(0px);
+    margin-bottom: 9px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(63, 106, 138, 0.21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
 }
 
-.resultin {
-    border-radius:20px;
-    background-color: #577c8e;
-    padding: 25px;
+.texto h3{
+    text-shadow: 0px 0px 15px black;
+    padding-top: 70px;
+    color: white;
+    font-weight: 300;
+    font-size: 27px;
 }
->>>>>>> 81f4b75b5149e228633738ce4c1bae8f0f54d2c6
+
+.texto p{
+    text-align: center;
+    align-items: center;
+    margin: -5px auto 40px auto;
+    padding: 20px;
+    color:white;
+    font-size: 0px;
+    font-weight: 300;
+}
+
+.imagenes .texto{
+    width: 600px;
+    height: 100px;
+    transition: 1s;
+}
+
+.imagenes:hover .texto{
+    transition: height 0.5s, transform 1s, background-color 1s;
+    transform: translateY(-100px);
+    height: 300px;
+    background-color: rgba(63, 106, 138, 0.71);
+}
+
+.imagenes:hover .texto p{
+    transition: font-size 0s .1s linear;
+    font-size: 23px;
+    font-weight: 300;
+
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.puntos p{
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: -100px;
+    color: black;
+}
+
+.puntos .bold{
+    font-weight: 400;
+    color: rgb(0, 104, 202);
+}
+
+.boton {
+    height: 70px;
+    padding: 5px;
+    margin: auto 15px;
+
+}
+
+.boton:hover {
+    
+    height: 80px;
+    margin: auto 10px;
+    transition: 0.2s;
+}

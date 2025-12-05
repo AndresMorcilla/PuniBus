@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>puni bus</title>
-    <link rel="stylesheet" href="assets/styles/global.css">
+    <link rel="stylesheet" href="assets/css/global.css">
 </head>
 <body>
     <header>
@@ -73,41 +73,35 @@
     </div>
     <br>
 
-    <div id="carousel-container">
-        <div id="carousel">
-            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/capillatermi.webp" alt="Imagen 1"></div>
-            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/CarcorUrbano1.jpeg" alt="Imagen 2"></div>
-            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/colectivo sarmiento.jpeg" alt="Imagen 3"></div>
-            <div class="carousel-slide"><img  class="imagen_del_carrousel"  src="assets/img/ico/interurbanos-terminal-carlos-paz.webp" alt="Imagen 4"></div>
+    <div class="carrusel">
+        <div class="atras">
+            <img id="atras" src="img/atras.png" alt="atras" class="boton" loading="lazy">
         </div>
-        
-            <!-- Botones -->
-        <button  class="button_carrousel" id="carousel-prev">&#10094;</button>
-        <button  class="button_carrousel" id="carousel-next">&#10095;</button>
-        
-            <!-- Indicadores -->
-        <div id="carousel-indicators">
-            <span class="indicator active" data-index="0"></span>
-            <span class="indicator" data-index="1"></span>
-            <span class="indicator" data-index="2"></span>
-            <span class="indicator" data-index="3"></span>
+
+        <div class="imagenes">
+            <div id="img">
+                <img class="img" src="assets/img/ico/capillatermi.webp" alt="imagen 1" loading="lazy">
+            </div>
+            
+            <div id="texto" class="texto">
+                <h3>BMW Series 1</h3>
+                <p>El BMW Serie 1 es un compacto premium, reconocido por su dinámica de conducción, diseño deportivo y tecnología innovadora. Se ofrece en versiones de 3 y 5 puertas, con una amplia gama de motores de gasolina y diésel.</p>
+            </div>
+        </div>
+
+        <div class="adelante" id="adelante">
+            <img src="img/adelante.png" alt="adelante" class="boton" loading="lazy">
         </div>
     </div>
-    
-        <script src="script.js"></script>
-
-    </div>
-
+    <div class="puntos" id="puntos"></div>
 
     <footer>
         <h4  class="itemfooter">Punibus</h4>
         <h4  class="itemfooter" >Un sitio web que ayuda a difundir los horarios del colectivo</h4>
         <h6  class="itemfooter">&copy; 2025 Cuarto año proa. Todos los derechos reservados.</h6>
     </footer>
-<<<<<<< HEAD
+    
+    <script src="assets/js/carrusel.js"></script>
     <script src="assets/js/script.js"></script>
-=======
-    <script src="redir.js"></script>
->>>>>>> 81f4b75b5149e228633738ce4c1bae8f0f54d2c6
 </body>
 </html>
